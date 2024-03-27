@@ -1,0 +1,24 @@
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.2/ext/io/console
+/Users/asamitakaoka/.rbenv/versions/3.1.4/bin/ruby -I /Users/asamitakaoka/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240328-95222-5xq8ey sitelibdir\=./.gem.20240328-95222-5xq8ey clean
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240328-95222-5xq8ey sitelibdir\=./.gem.20240328-95222-5xq8ey
+compiling console.c
+linking shared-object io/console.bundle
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240328-95222-5xq8ey sitelibdir\=./.gem.20240328-95222-5xq8ey install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20240328-95222-5xq8ey/io
