@@ -1,0 +1,16 @@
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+/Users/asamitakaoka/.rbenv/versions/3.1.4/bin/ruby -I /Users/asamitakaoka/.rbenv/versions/3.1.4/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240327-46842-uxxsht sitelibdir\=./.gem.20240327-46842-uxxsht clean
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240327-46842-uxxsht sitelibdir\=./.gem.20240327-46842-uxxsht
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/asamitakaoka/project/next-rails-docker/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240327-46842-uxxsht sitelibdir\=./.gem.20240327-46842-uxxsht install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20240327-46842-uxxsht/debug

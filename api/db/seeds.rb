@@ -1,9 +1,19 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
+Post.create!(
+  [
+    {
+      title: 'Next.js + Ruby on Rails + Docker の環境構築'
+    },
+    {
+      title: 'React Hooks でカスタムフックを作る'
+    },
+    {
+      title: 'GraphQL と Apollo Client 入門'
+    },
+    {
+      title: '【TypeScript4.3】Template Literal Types'
+    },
+    {
+      title: 'Tailwind CSS でダークモード実装'
+    },
+  ]
+)
