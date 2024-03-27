@@ -68,4 +68,7 @@ Rails.application.configure do
 
   # Raise error when a before_action's only/except options reference missing actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  # localhost:3000では通信に失敗するためhostをdocker-compose.ymlのコンテナ名に合わせる
+  config.hosts << "api"
 end
